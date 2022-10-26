@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary: rgb(248, 218, 61);
+}
+
+.work {
+  --primary: rgb(199, 187, 202);
+}
+
+.writings {
+  --primary: rgb(230, 220, 201);
+}
+
+.contact {
+  --primary: rgb(95, 175, 104);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.text-primary {
+  color: var(--primary);
+}
