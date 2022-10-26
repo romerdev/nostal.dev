@@ -6,6 +6,7 @@ export default function Writings() {
     <main>
       <Wrapper>
         <PageTitle title="Writings" />
+        <p className="mt-9">I have not yet written any articles. Be sure to check back soon!</p>
       </Wrapper>
     </main>
   )
