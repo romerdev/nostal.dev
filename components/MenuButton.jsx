@@ -23,11 +23,11 @@ export default function MenuButton() {
     <button onClick={toggleClass} key={pathname} className="md:hidden font-bold text-xl transition-colors bg-opacity-0 hover:bg-opacity-20 bg-white inline-flex">
       <span className="js-menuButton flex w-full p-4 h-32">
         Menu
-        <Bars3Icon className="h-8 w-8 ml-auto"/>
+        <Bars3Icon className="h-8 w-8 ml-auto" />
       </span>
       <span className="js-menuButton hidden w-full p-4 h-32 bg-black text-primary">
         Close
-        <XMarkIcon className="h-8 w-8 ml-auto"/>
+        <XMarkIcon className="h-8 w-8 ml-auto" />
       </span>
     </button>
   );

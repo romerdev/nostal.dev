@@ -1,5 +1,4 @@
-import PageTitle from "../../components/PageTitle"
-import Wrapper from "../../components/Wrapper"
+import PageHero from "../../components/PageHero"
 
 export default function Work() {
   return (
@@ -9,10 +8,9 @@ export default function Work() {
           --primary: rgb(199, 187, 202);
         }
       `}</style>
-      <Wrapper></Wrapper>
-      <Wrapper>
-        <PageTitle title="Work" />
-      </Wrapper>
+      <PageHero title="Work">
+          <p className="text-4xl md:text-6xl tracking-tighter font-medium md:max-w-2xl md:mr-8">I haven't added my projects yet. Check back soon!</p>
+      </PageHero>
     </main>
   )
 }

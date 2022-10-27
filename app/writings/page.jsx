@@ -1,5 +1,4 @@
-import PageTitle from "../../components/PageTitle"
-import Wrapper from "../../components/Wrapper"
+import PageHero from "../../components/PageHero"
 
 export default function Writings() {
   return (
@@ -9,10 +8,9 @@ export default function Writings() {
           --primary: rgb(230, 220, 201);
         }
       `}</style>
-      <Wrapper>
-        <PageTitle title="Writings" />
-        <p className="mt-9">I have not yet written any articles. Be sure to check back soon!</p>
-      </Wrapper>
+      <PageHero title="Writings">
+          <p className="text-4xl md:text-6xl tracking-tighter font-medium md:max-w-2xl md:mr-8">There are no articles yet. Check back soon!</p>
+      </PageHero>
     </main>
   )
 }

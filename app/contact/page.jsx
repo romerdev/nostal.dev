@@ -1,5 +1,4 @@
-import PageTitle from "../../components/PageTitle"
-import Wrapper from "../../components/Wrapper"
+import PageHero from "../../components/PageHero"
 
 export default function Contact() {
   return (
@@ -9,9 +8,9 @@ export default function Contact() {
           --primary: rgb(95, 175, 104);
         }
       `}</style>
-      <Wrapper>
-        <PageTitle title="Contact" />
-      </Wrapper>
+      <PageHero title="Contact">
+          <p className="text-4xl md:text-6xl tracking-tighter font-medium md:max-w-2xl md:mr-8">Let's get in touch and figure something out.</p>
+      </PageHero>
     </main>
   )
 }
