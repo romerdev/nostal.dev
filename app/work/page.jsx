@@ -4,7 +4,7 @@ import Wrapper from "../../components/Wrapper"
 export default function Work() {
   return (
     <main>
-      <style global jsx>{`
+      <style global="true">{`
         :root {
           --primary: rgb(199, 187, 202);
         }

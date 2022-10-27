@@ -4,7 +4,7 @@ import Wrapper from "../../components/Wrapper"
 export default function Contact() {
   return (
     <main>
-      <style global jsx>{`
+      <style global="true">{`
         :root {
           --primary: rgb(95, 175, 104);
         }

@@ -4,7 +4,7 @@ import Wrapper from "../../components/Wrapper"
 export default function Writings() {
   return (
     <main>
-      <style global jsx>{`
+      <style global="true">{`
         :root {
           --primary: rgb(230, 220, 201);
         }
