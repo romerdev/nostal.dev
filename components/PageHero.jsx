@@ -1,5 +1,4 @@
 import Wrapper from "./Wrapper";
-import { ArrowLongDownIcon } from "@heroicons/react/24/solid";
 
 export default function PageHero({title, children}) {
   return (
