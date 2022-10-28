@@ -3,7 +3,7 @@
 import PageHero from "../components/PageHero"
 import Wrapper from "../components/Wrapper"
 import Image from "next/image"
-import romer from "../public/romer.png"
+import romer from "../public/romer.webp"
 import gsap from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
 import {useRef, useEffect} from "react";
