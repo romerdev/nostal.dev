@@ -11,6 +11,7 @@ export default function Writings() {
       <PageHero title="Writings">
           <p className="text-4xl md:text-6xl tracking-tighter font-medium md:max-w-2xl md:mr-8">There are no articles yet. Check back soon!</p>
       </PageHero>
+      <section name="main"></section>
     </main>
   )
 }

@@ -1,5 +1,5 @@
-import NavItem from './NavItem';
-import MenuButton from './MenuButton'
+import NavItem from "./NavItem";
+import MenuButton from "./MenuButton";
 
 export default function Navigation() {
   return (
@@ -8,7 +8,7 @@ export default function Navigation() {
       <NavItem slug='/work' name='Work' />
       <NavItem slug='/writings' name='Writings' />
       <NavItem slug='/contact' name={`Let's Talk`} />
-      
+
       <MenuButton />
     </nav>
   );

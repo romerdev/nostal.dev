@@ -1,34 +1,38 @@
-'use client';
+"use client";
 
-import { usePathname } from 'next/navigation';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
+import { usePathname } from "next/navigation";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 export default function MenuButton() {
   const pathname = usePathname();
 
   const toggleClass = () => {
-    const menuElement = document.querySelector('.js-menu');
-    const buttonElements = document.querySelectorAll('.js-menuButton ');
+    const menuElement = document.querySelector(".js-menu");
+    const buttonElements = document.querySelectorAll(".js-menuButton ");
 
     buttonElements.forEach((element) => {
-      element.classList.toggle('hidden');
-      element.classList.toggle('flex');
+      element.classList.toggle("hidden");
+      element.classList.toggle("flex");
     });
 
-    menuElement.classList.toggle('hidden');
-    menuElement.classList.toggle('grid');
+    menuElement.classList.toggle("hidden");
+    menuElement.classList.toggle("grid");
   };
 
   return (
-    <button onClick={toggleClass} key={pathname} className="md:hidden font-bold text-xl transition-colors bg-opacity-0 hover:bg-opacity-20 bg-white inline-flex">
-      <span className="js-menuButton flex w-full p-4 h-32">
+    <button
+      onClick={toggleClass}
+      key={pathname}
+      className='md:hidden font-bold text-xl transition-colors bg-opacity-0 hover:bg-opacity-20 bg-white inline-flex'
+    >
+      <span className='js-menuButton flex w-full p-4 h-32'>
         Menu
-        <Bars3Icon className="h-8 w-8 ml-auto" />
+        <Bars3Icon className='h-8 w-8 ml-auto' />
       </span>
-      <span className="js-menuButton hidden w-full p-4 h-32 bg-black text-primary">
+      <span className='js-menuButton hidden w-full p-4 h-32 bg-black text-primary'>
         Close
-        <XMarkIcon className="h-8 w-8 ml-auto" />
+        <XMarkIcon className='h-8 w-8 ml-auto' />
       </span>
     </button>
   );
-};
+}
